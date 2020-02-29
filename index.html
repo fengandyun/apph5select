@@ -69,7 +69,9 @@
             name: 'sensors',
             use_app_track: true,
             server_url: 'http://liuxing2.debugbox.sensorsdata.cn/sa?project=guozheng',
-            heatmap:{}
+            heatmap:{
+                clickmap:'not-collect'
+            }
         });
         sensors.quick('autoTrack');
     </script>
