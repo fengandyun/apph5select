@@ -3263,7 +3263,7 @@ sdk的初始化和组织
               output:'all'
             });
             this.prepareServerUrl();
-            console.log('@@@@@@@@@执行发送数据');
+            console.log('@@@@@@@@@执行发送数据1'+ sd.para.server_url+'@@@@@@@@');
           }else{
             (typeof callback === 'function') && callback();
           }
